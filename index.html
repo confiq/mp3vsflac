@@ -25,7 +25,7 @@
             <div id="ribbon">
                 <div class="ribbon">
                     <div class="ribbon-stitches-top"></div>
-                    <strong class="ribbon-content"><h1>What codec is better?</h1>
+                    <strong class="ribbon-content"><h1>Guess what codecs is this song?</h1>
                         <h2>FLAC or MP3?</h2>
                     </strong>
                     <div class="ribbon-stitches-bottom"></div>
@@ -42,23 +42,28 @@
                     <h2>Player</h2>
                     <div class="viewport">
                         <div class="circleplayer">
+                            <div id="jquery_jplayer_1" class="cp-jplayer"></div>
                             <div id="cp_container_1" class="cp-container">
-                                <div class="cp-buffer-holder cp-gt50" style="display: block; ">
-                                    <div class="cp-buffer-1" style="-webkit-transform: rotate(180deg); "></div>
-                                    <div class="cp-buffer-2" style="display: block; -webkit-transform: rotate(360deg); "></div>
+                                <div class="cp-buffer-holder">
+                                    <div class="cp-buffer-1"></div>
+                                    <div class="cp-buffer-2"></div>
                                 </div>
-                                <div class="cp-progress-holder" style="display: block; ">
-                                    <div class="cp-progress-1" style="-webkit-transform: rotate(8.905052769502586deg); "></div>
-                                    <div class="cp-progress-2" style="-webkit-transform: rotate(0deg); display: none; "></div>
+                                <div class="cp-progress-holder">
+                                    <div class="cp-progress-1"></div>
+                                    <div class="cp-progress-2"></div>
                                 </div>
                                 <div class="cp-circle-control"></div>
                                 <ul class="cp-controls">
-                                    <li><a href="#" class="cp-play" tabindex="1" style="display: block; " id="">play</a></li>
-                                    <li><a href="#" class="cp-pause" style="display: none; " tabindex="1" id="">pause</a></li>
+                                    <li><a href="#" class="cp-play" tabindex="1">play</a></li>
+                                    <li><a href="#" class="cp-pause" style="display:none;" tabindex="1">pause</a></li>
                                 </ul>
                             </div>
                         </div>
 
+                    </div>
+                    <div class="buttons">
+                        <button class="minimal mp3">FLAC</button>
+                        <button class="minimal flac">MP3</button>
                     </div>
                </div>
                 <div class="span4">
