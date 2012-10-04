@@ -1172,7 +1172,7 @@ Asset = (function(_super) {
       return;
     }
     this.emit('format', this.format);
-    console.log(this.format);
+    //console.log(this.format);
     decoder = Decoder.find(this.format.formatID);
     if (!decoder) {
       return this.emit('error', "A decoder for " + this.format.formatID + " was not found.");
